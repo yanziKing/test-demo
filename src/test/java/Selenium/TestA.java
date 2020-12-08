@@ -17,7 +17,7 @@ import sun.awt.windows.WEmbeddedFrame;
 
 import java.util.Set;
 
-public class TestMethodA {
+public class TestA {
     private WebDriver driver;
     String url = "C:\\新建文件夹\\BeyondSofter_HTML\\BeyondSofter_HTML\\BeyondSofter_HTML\\selenium_html\\index.html";
     String url2 = "C:\\新建文件夹\\BeyondSofter_HTML\\BeyondSofter_HTML\\BeyondSofter_HTML\\selenium_html\\dragAndDrop.html";
