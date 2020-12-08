@@ -306,4 +306,7 @@ public  void methodF() throws InterruptedException {
         actions.dragAndDrop(elementA, elementB).perform();
         Thread.sleep(3000);
     }
+    public void methodZ() throws InterruptedException {
+    }
+    }
 }
