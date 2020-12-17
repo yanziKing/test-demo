@@ -2,6 +2,8 @@ package Selenium;
 
 import DriverFrameWork.BrowserTypes;
 import DriverFrameWork.Browsers;
+import TestNG.TestNgA;
+import org.apache.log4j.Logger;
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -30,6 +32,8 @@ public class TestMethodA {
 }
 @Test
 public  void methodB() throws InterruptedException {
+    Logger logger = Logger.getLogger(TestMethodA.class);
+    logger.info("测试log4j");
    //浏览器指定窗口大小
     Dimension demension = new Dimension(500,300);
     driver.manage().window().setSize(demension);
@@ -307,6 +311,5 @@ public  void methodF() throws InterruptedException {
         Thread.sleep(3000);
     }
     public void methodZ() throws InterruptedException {
-    }
     }
 }

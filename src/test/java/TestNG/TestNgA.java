@@ -1,5 +1,6 @@
 package TestNG;
 
+import org.apache.log4j.Logger;
 import org.testng.annotations.*;
 
 public class TestNgA {
@@ -11,6 +12,8 @@ public class TestNgA {
     @Test
     public void MethodB()
     {
+        Logger logger = Logger.getLogger(TestNgA.class);
+        logger.info("这时方法B");
         System.out.println("This is MethodB");
     }
     @Test
